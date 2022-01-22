@@ -2,8 +2,8 @@ import React from "react";
 import { Paper } from "./Paper";
 
 export default {
-  components: Paper,
-  title: "Ar UI/Paper",
+  name: "Ar UI/Paper",
+  component: Paper,
   argTypes: {
     variant: {
       description: "To make the paper outlined",
@@ -12,9 +12,6 @@ export default {
           summary: "eg. variant: outlined",
         },
       },
-      //   control: {
-      //     type: "string",
-      //   },
     },
     shadow: {
       description: "To add box shadow to the paper",
