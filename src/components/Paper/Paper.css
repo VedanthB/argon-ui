@@ -1,0 +1,45 @@
+.ar-paper {
+  width: 256px;
+  height: 256px;
+  border-radius: 6px;
+}
+
+.ar-paper-square {
+  border-radius: 0px;
+}
+
+.ar-paper-outlined {
+  border: 1px solid rgba(0, 0, 0, 0.493);
+}
+
+.ar-paper-shadow-1 {
+  box-shadow: 0 1.5px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+.ar-paper-shadow-2 {
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
+}
+.ar-paper-shadow-3 {
+  box-shadow: 0 2.5px 4px 0 rgba(0, 0, 0, 0.2);
+}
+.ar-paper-shadow-4 {
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.2);
+}
+.ar-paper-shadow-5 {
+  box-shadow: 0 3.5px 4px 0 rgba(0, 0, 0, 0.2);
+}
+.ar-paper-shadow-6 {
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2);
+}
+.ar-paper-shadow-7 {
+  box-shadow: 0 4.5px 6px 0 rgba(0, 0, 0, 0.2);
+}
+.ar-paper-shadow-8 {
+  box-shadow: 0 5px 7px 0 rgba(0, 0, 0, 0.2);
+}
+.ar-paper-shadow-9 {
+  box-shadow: 0 5.5x 8px 0 rgba(0, 0, 0, 0.2);
+}
+.ar-paper-shadow-10 {
+  box-shadow: 0 6px 9px 0 rgba(0, 0, 0, 0.2);
+}

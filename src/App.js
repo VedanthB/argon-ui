@@ -1,3 +1,11 @@
+// import { Paper } from "./components/Paper/Paper";
+
 export const App = () => {
-  return <>hello dargon</>;
+  return (
+    <>
+      {/* <Paper variant="outlined" shadow={8} square={false}>
+        <p> dkdkndcdandsi ndid idfib bdif idf ib df bf d</p>
+      </Paper> */}
+    </>
+  );
 };
