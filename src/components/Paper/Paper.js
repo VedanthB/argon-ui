@@ -30,7 +30,7 @@ const Shadow = ({ children, shadow, square, ...rest }) => {
   );
 };
 
-export const Paper = ({ shadow, variant, square, children, ...rest }) => {
+export const Paper = ({ shadow = 4, variant, square, children, ...rest }) => {
   //   const  = props;
   return (
     {
