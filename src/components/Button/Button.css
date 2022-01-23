@@ -101,7 +101,7 @@
 }
 
 .ar-button:hover {
-  transition: 0.4s;
+  transition: 0.2s;
 }
 
 .ar-button:focus {
@@ -122,7 +122,7 @@
 
 /* Primary Filled Button */
 
-.ar-button-primary {
+.ar-button-primary.ar-button-filled {
   background-color: var(--primary-button);
 }
 .ar-button-primary.ar-button-filled:hover {
@@ -230,134 +230,139 @@
   box-shadow: 0 0 6px var(--dark-button-hover);
 }
 
-/* Filled Buttons*/
-/* 
+/* Outlined Buttons */
 
-Bordered Buttons
+/* default outlined button */
 
-.ar-default.ar-bordered {
+.ar-button-default.ar-button-outlined {
   color: var(--default-button);
   border: solid 1px var(--default-button);
 }
 
-.ar-default.ar-bordered:hover {
+.ar-button-default.ar-button-outlined:hover {
   background-color: var(--default-button);
   color: white;
 }
 
-.ar-default.ar-bordered:focus {
+.ar-button-default.ar-button-outlined:focus {
   box-shadow: 0 0 6px var(--primary-button-hover);
 }
+/* primary outlined button */
 
-.ar-primary.ar-bordered {
+.ar-button-primary.ar-button-outlined {
   color: var(--primary-button);
   border: solid 1px var(--primary-button);
 }
 
-.ar-primary.ar-bordered:hover {
+.ar-button-primary.ar-button-outlined:hover {
   background-color: var(--primary-button);
   color: white;
 }
 
-.ar-primary.ar-bordered:focus {
+.ar-button-primary.ar-button-outlined:focus {
   box-shadow: 0 0 6px var(--primary-button-hover);
 }
 
-.ar-secondary.ar-bordered {
+/* secondary outlined button */
+
+.ar-button-secondary.ar-button-outlined {
   color: var(--secondary-button);
   border: solid 1px var(--secondary-button);
 }
 
-.ar-secondary.ar-bordered:hover {
+.ar-button-secondary.ar-button-outlined:hover {
   background-color: var(--secondary-button);
   color: white;
 }
 
-.ar-secondary.ar-bordered:focus {
+.ar-button-secondary.ar-button-outlined:focus {
   box-shadow: 0 0 6px var(--secondary-button-hover);
 }
+/* success outlined button */
 
-.ar-success.ar-bordered {
+.ar-button-success.ar-button-outlined {
   color: var(--success-button);
   border: solid 1px var(--success-button);
 }
 
-.ar-success.ar-bordered:hover {
+.ar-button-success.ar-button-outlined:hover {
   background-color: var(--success-button);
   color: white;
 }
 
-.ar-success.ar-bordered:focus {
+.ar-button-success.ar-button-outlined:focus {
   box-shadow: 0 0 6px var(--success-button-hover);
 }
+/* danger outlined button */
 
-.ar-danger.ar-bordered {
+.ar-button-danger.ar-button-outlined {
   color: var(--danger-button);
   border: solid 1px var(--danger-button);
 }
 
-.ar-danger.ar-bordered:hover {
+.ar-button-danger.ar-button-outlined:hover {
   background-color: var(--danger-button);
   color: white;
 }
 
-.ar-danger.ar-bordered:focus {
+.ar-button-danger.ar-button-outlined:focus {
   box-shadow: 0 0 6px var(--danger-button-hover);
 }
+/* warning outlined button */
 
-.ar-warning.ar-bordered {
+.ar-button-warning.ar-button-outlined {
   color: var(--warning-button);
   border: solid 1px var(--warning-button);
 }
 
-.ar-warning.ar-bordered:hover {
+.ar-button-warning.ar-button-outlined:hover {
   background-color: var(--warning-button);
   color: white;
 }
+/* info outlined button */
 
-.ar-info.ar-bordered:focus {
+.ar-button-info.ar-button-outlined:focus {
   box-shadow: 0 0 6px var(--info-button-hover);
 }
 
-.ar-info.ar-bordered {
+.ar-button-info.ar-button-outlined {
   color: var(--info-button);
   border: solid 1px var(--info-button);
 }
 
-.ar-info.ar-bordered:hover {
+.ar-button-info.ar-button-outlined:hover {
   background-color: var(--info-button);
   color: white;
 }
 
-.ar-info.ar-bordered:focus {
-  box-shadow: 0 0 6px var(--info-button-hover);
-}
+/* light outlined button */
 
-.ar-light.ar-bordered {
+.ar-button-light.ar-button-outlined {
   color: black;
   border: solid 1px black;
 }
 
-.ar-light.ar-bordered:hover {
+.ar-button-light.ar-button-outlined:hover {
   background-color: var(--light-button-hover);
   color: black;
 }
 
-.ar-light.ar-bordered:focus {
+.ar-button-light.ar-button-outlined:focus {
   box-shadow: 0 0 6px var(--light-button-hover);
 }
 
-.ar-dark.ar-bordered {
+/* dark outlined button */
+
+.ar-button-dark.ar-button-outlined {
   color: var(--dark-button);
   border: solid 1px var(--dark-button);
 }
 
-.ar-dark.ar-bordered:hover {
+.ar-button-dark.ar-button-outlined:hover {
   background-color: var(--dark-button);
   color: white;
 }
 
-.ar-dark.ar-bordered:focus {
+.ar-button-dark.ar-button-outlined:focus {
   box-shadow: 0 0 6px var(--dark-button-hover);
-} 
-*/
+}
