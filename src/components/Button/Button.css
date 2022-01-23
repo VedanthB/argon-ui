@@ -1,22 +1,31 @@
 :root {
   --default-button: #1976d2;
   --default-button-hover: #1564b3;
+  --default-button-transparent-hover: #1564b311;
   --primary-button: #443d70;
   --primary-button-hover: #282441;
+  --primary-button-transparent-hover: #2824411a;
   --secondary-button: #ff0099;
   --secondary-button-hover: #d3007f;
+  --secondary-button-transparent-hover: #d3007f1c;
   --success-button: #28a745;
   --success-button-hover: #1d7932;
+  --success-button-transparent-hover: #1d793321;
   --warning-button-hover: #d39e00;
+  --warning-button-transparent-hover: #d39e001a;
   --warning-button: #ffc107;
   --danger-button: #dc3545;
   --danger-button-hover: #a52734;
+  --danger-button-transparent-hover: #a5273421;
   --info-button: #17a2b8;
   --info-button-hover: #117888;
+  --info-button-transparent-hover: #11788823;
   --light-button: #f8f9fa;
   --light-button-hover: #e7e7e7;
+  --light-button-transparent-hover: #e7e7e725;
   --dark-button: #343a40;
   --dark-button-hover: #131518;
+  --dark-button-transparent-hover: #1315182a;
 }
 
 .ar-button-sm {
@@ -365,4 +374,97 @@
 
 .ar-button-dark.ar-button-outlined:focus {
   box-shadow: 0 0 6px var(--dark-button-hover);
+}
+
+/* Default Filled Button */
+
+.ar-button-normal {
+  background-color: transparent;
+  transition: background-color 250ms;
+  box-shadow: 0px 0px 0px 0px black !important;
+}
+
+.ar-button-default.ar-button-normal {
+  color: var(--default-button);
+}
+.ar-button-default.ar-button-normal:hover {
+  background-color: var(--default-button-transparent-hover);
+}
+
+/* Primary Filled Button */
+
+.ar-button-primary.ar-button-normal {
+  color: var(--primary-button);
+}
+.ar-button-primary.ar-button-normal:hover {
+  background-color: var(--primary-button-transparent-hover);
+}
+
+/* Secondary Filled Button */
+.ar-button-secondary.ar-button-normal {
+  color: var(--secondary-button);
+}
+
+.ar-button-secondary.ar-button-normal:hover {
+  background-color: var(--secondary-button-transparent-hover);
+}
+
+/* Success Filled Button */
+
+.ar-button-success.ar-button-normal {
+  color: var(--success-button);
+}
+
+.ar-button-success.ar-button-normal:hover {
+  background-color: var(--success-button-transparent-hover);
+}
+
+/* Danger Filled button */
+
+.ar-button-danger.ar-button-normal {
+  color: var(--danger-button);
+}
+
+.ar-button-danger.ar-button-normal:hover {
+  background-color: var(--danger-button-transparent-hover);
+}
+
+/* Warning Filled Button*/
+.ar-button-warning.ar-button-normal {
+  color: var(--warning-button);
+}
+
+.ar-button-warning.ar-button-normal:hover {
+  background-color: var(--warning-button-transparent-hover);
+}
+
+/* Info Filled Button  */
+
+.ar-button-info.ar-button-normal {
+  color: var(--info-button);
+}
+
+.ar-button-info.ar-button-normal:hover {
+  background-color: var(--info-button-transparent-hover);
+}
+
+/* Light Filled Button  */
+
+.ar-button-light.ar-button-normal {
+  color: var(--light-button);
+  color: black;
+}
+
+.ar-button-light.ar-button-normal:hover {
+  background-color: var(--light-button-transparent-hover);
+}
+
+/* Dark Filled Button  */
+
+.ar-button-dark.ar-button-normal {
+  color: var(--dark-button);
+}
+
+.ar-button-dark.ar-button-normal:hover {
+  background-color: var(--dark-button-transparent-hover);
 }
