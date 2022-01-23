@@ -2,7 +2,7 @@ import React from "react";
 import { Paper } from "./Paper";
 
 export default {
-  name: "Ar UI/Paper",
+  title: "Ar UI/Paper",
   component: Paper,
   argTypes: {
     variant: {

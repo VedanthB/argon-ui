@@ -1,0 +1,374 @@
+:root {
+  --default-button: #1976d2;
+  --default-button-hover: #1564b3;
+  --primary-button: #443d70;
+  --primary-button-hover: #282441;
+  --secondary-button: #ff0099;
+  --secondary-button-hover: #d3007f;
+  --success-button: #28a745;
+  --success-button-hover: #1d7932;
+  --warning-button-hover: #d39e00;
+  --warning-button: #ffc107;
+  --danger-button: #dc3545;
+  --danger-button-hover: #a52734;
+  --info-button: #17a2b8;
+  --info-button-hover: #117888;
+  --light-button: #f8f9fa;
+  --light-button-hover: #e7e7e7;
+  --dark-button: #343a40;
+  --dark-button-hover: #131518;
+}
+
+/* 
+
+*/
+
+.ar-button-sm {
+  height: 32px;
+  width: fit-content;
+
+  font-size: 13px;
+  padding: 3px 9px;
+}
+.ar-button-md {
+  height: 36px;
+  width: fit-content;
+
+  font-size: 14px;
+  padding: 5px 15px;
+}
+.ar-button-lg {
+  height: 43px;
+  width: fit-content;
+  font-size: 15px;
+  padding: 7px 21px;
+}
+
+.ar-button-square {
+  border-radius: 6px !important;
+}
+/* Floating Action Button */
+/* .ar-fab.ar-fab-standard {
+  border-radius: 100%;
+  display: flex;
+  font-size: 1.5rem;
+  height: 1em;
+  width: 1em;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  background-color: var(--default-button);
+  box-shadow: 0 0 6px var(--default-button-hover);
+}
+
+.ar-fab.ar-fab-standard:hover {
+  background-color: var(--default-button-hover);
+}
+
+.ar-fab.ar-fab-standard:focus {
+  transition-property: rgba(25, 118, 210, 0.9);
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in;
+  transition-delay: 0.2s;
+}
+
+.ar-fab.ar-fab-extended {
+  border-radius: 32px;
+  display: flex;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: var(--default-button);
+  box-shadow: 0 0 6px var(--default-button-hover);
+}
+
+.ar-fab.ar-fab-extended:hover {
+  background-color: var(--default-button-hover);
+}
+
+.ar-fab.ar-fab-extended:focus {
+  transition-property: rgba(25, 118, 210, 0.9);
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in;
+  transition-delay: 0.2s;
+} */
+
+.ar-button {
+  border-radius: 16px;
+  color: white;
+  background-color: white;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  border: none;
+  box-shadow: rgb(0 0 0 / 20%) 0px 3px 1px -2px,
+    rgb(0 0 0 / 14%) 0px 2px 2px 0px, rgb(0 0 0 / 12%) 0px 1px 5px 0px;
+}
+
+.ar-button:hover {
+  transition: 0.4s;
+}
+
+.ar-button:focus {
+  outline: none;
+}
+
+.ar-button-default.ar-button-filled {
+  background-color: var(--default-button);
+}
+.ar-button-default.ar-button-filled:hover {
+  background-color: var(--default-button-hover);
+}
+.ar-button-default.ar-button-filled:focus {
+  box-shadow: 0 0 6px var(--default-button-hover);
+}
+
+.ar-button-primary {
+  background-color: var(--primary-button);
+}
+.ar-button-primary.ar-button-filled:hover {
+  background-color: var(--primary-button-hover);
+}
+
+.ar-button-primary.ar-button-filled:focus {
+  box-shadow: 0 0 6px var(--primary-button-hover);
+}
+
+/* Filled Buttons*/
+/* 
+.ar-default.ar-filled {
+  background-color: var(--default-button);
+}
+
+.ar-default.ar-filled:hover {
+  background-color: var(--default-button-hover);
+}
+
+.ar-default.ar-filled:focus {
+  box-shadow: 0 0 6px var(--default-button-hover);
+}
+
+.ar-primary.ar-filled {
+  background-color: var(--primary-button);
+}
+
+.ar-primary.ar-filled:hover {
+  background-color: var(--primary-button-hover);
+}
+
+.ar-primary.ar-filled:focus {
+  box-shadow: 0 0 6px var(--primary-button-hover);
+}
+
+.ar-secondary.ar-filled {
+  background-color: var(--secondary-button);
+}
+
+.ar-secondary.ar-filled:hover {
+  background-color: var(--secondary-button-hover);
+}
+
+.ar-secondary.ar-filled:focus {
+  box-shadow: 0 0 6px var(--secondary-button-hover);
+}
+
+.ar-success.ar-filled {
+  background-color: var(--success-button);
+}
+
+.ar-success.ar-filled:hover {
+  background-color: var(--success-button-hover);
+}
+
+.ar-success.ar-filled:focus {
+  box-shadow: 0 0 6px var(--success-button-hover);
+}
+
+.ar-danger.ar-filled {
+  background-color: var(--danger-button);
+}
+
+.ar-danger.ar-filled:hover {
+  background-color: var(--danger-button-hover);
+}
+
+.ar-danger.ar-filled:focus {
+  box-shadow: 0 0 6px var(--danger-button-hover);
+}
+
+.ar-warning.ar-filled {
+  background-color: var(--warning-button);
+}
+
+.ar-warning.ar-filled:hover {
+  background-color: var(--warning-button-hover);
+}
+
+.ar-warning.ar-filled:focus {
+  box-shadow: 0 0 6px var(--warning-button-hover);
+}
+
+.ar-info.ar-filled {
+  background-color: var(--info-button);
+}
+
+.ar-info.ar-filled:hover {
+  background-color: var(--info-button-hover);
+}
+
+.ar-info.ar-filled:focus {
+  box-shadow: 0 0 6px var(--info-button-hover);
+}
+
+.ar-light.ar-filled {
+  background-color: var(--light-button);
+  color: black;
+}
+
+.ar-light.ar-filled:hover {
+  background-color: var(--light-button-hover);
+}
+
+.ar-light.ar-filled:focus {
+  box-shadow: 0 0 6px var(--light-button-hover);
+}
+
+.ar-dark.ar-filled {
+  background-color: var(--dark-button);
+}
+
+.ar-dark.ar-filled:hover {
+  background-color: var(--dark-button-hover);
+}
+
+.ar-dark.ar-filled:focus {
+  box-shadow: 0 0 6px var(--dark-button-hover);
+}
+
+Bordered Buttons
+
+.ar-default.ar-bordered {
+  color: var(--default-button);
+  border: solid 1px var(--default-button);
+}
+
+.ar-default.ar-bordered:hover {
+  background-color: var(--default-button);
+  color: white;
+}
+
+.ar-default.ar-bordered:focus {
+  box-shadow: 0 0 6px var(--primary-button-hover);
+}
+
+.ar-primary.ar-bordered {
+  color: var(--primary-button);
+  border: solid 1px var(--primary-button);
+}
+
+.ar-primary.ar-bordered:hover {
+  background-color: var(--primary-button);
+  color: white;
+}
+
+.ar-primary.ar-bordered:focus {
+  box-shadow: 0 0 6px var(--primary-button-hover);
+}
+
+.ar-secondary.ar-bordered {
+  color: var(--secondary-button);
+  border: solid 1px var(--secondary-button);
+}
+
+.ar-secondary.ar-bordered:hover {
+  background-color: var(--secondary-button);
+  color: white;
+}
+
+.ar-secondary.ar-bordered:focus {
+  box-shadow: 0 0 6px var(--secondary-button-hover);
+}
+
+.ar-success.ar-bordered {
+  color: var(--success-button);
+  border: solid 1px var(--success-button);
+}
+
+.ar-success.ar-bordered:hover {
+  background-color: var(--success-button);
+  color: white;
+}
+
+.ar-success.ar-bordered:focus {
+  box-shadow: 0 0 6px var(--success-button-hover);
+}
+
+.ar-danger.ar-bordered {
+  color: var(--danger-button);
+  border: solid 1px var(--danger-button);
+}
+
+.ar-danger.ar-bordered:hover {
+  background-color: var(--danger-button);
+  color: white;
+}
+
+.ar-danger.ar-bordered:focus {
+  box-shadow: 0 0 6px var(--danger-button-hover);
+}
+
+.ar-warning.ar-bordered {
+  color: var(--warning-button);
+  border: solid 1px var(--warning-button);
+}
+
+.ar-warning.ar-bordered:hover {
+  background-color: var(--warning-button);
+  color: white;
+}
+
+.ar-info.ar-bordered:focus {
+  box-shadow: 0 0 6px var(--info-button-hover);
+}
+
+.ar-info.ar-bordered {
+  color: var(--info-button);
+  border: solid 1px var(--info-button);
+}
+
+.ar-info.ar-bordered:hover {
+  background-color: var(--info-button);
+  color: white;
+}
+
+.ar-info.ar-bordered:focus {
+  box-shadow: 0 0 6px var(--info-button-hover);
+}
+
+.ar-light.ar-bordered {
+  color: black;
+  border: solid 1px black;
+}
+
+.ar-light.ar-bordered:hover {
+  background-color: var(--light-button-hover);
+  color: black;
+}
+
+.ar-light.ar-bordered:focus {
+  box-shadow: 0 0 6px var(--light-button-hover);
+}
+
+.ar-dark.ar-bordered {
+  color: var(--dark-button);
+  border: solid 1px var(--dark-button);
+}
+
+.ar-dark.ar-bordered:hover {
+  background-color: var(--dark-button);
+  color: white;
+}
+
+.ar-dark.ar-bordered:focus {
+  box-shadow: 0 0 6px var(--dark-button-hover);
+} 
+*/

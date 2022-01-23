@@ -1,6 +1,6 @@
 /* eslint-disable react/no-children-prop */
 import React from "react";
-import PropTypes from "prop-types";
+// import PropTypes from "prop-types";
 
 import "./Paper.css";
 
@@ -30,13 +30,7 @@ const Shadow = ({ children, shadow, square, ...rest }) => {
   );
 };
 
-export const Paper = ({
-  shadow = 2,
-  variant = "shadow",
-  square = false,
-  children,
-  ...rest
-}) => {
+export const Paper = ({ shadow, variant, square, children, ...rest }) => {
   //   const  = props;
   return (
     {
@@ -50,9 +44,9 @@ export const Paper = ({
   );
 };
 
-Paper.propTypes = {
-  variant: PropTypes.string,
-  square: PropTypes.bool,
-  children: PropTypes.element,
-  shadow: PropTypes.number,
-};
+// Paper.propTypes = {
+//   variant: PropTypes.string,
+//   square: PropTypes.bool,
+//   children: PropTypes.element,
+//   shadow: PropTypes.number,
+// };

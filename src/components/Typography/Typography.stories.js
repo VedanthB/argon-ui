@@ -1,7 +1,7 @@
 import { Typography } from "./Typography";
 
 export default {
-  name: "Ar UI/Typography",
+  title: "Ar UI/Typography",
   component: Typography,
   argTypes: {
     variant: {
@@ -102,6 +102,7 @@ captionText.args = {
 };
 
 export const outlineText = Template.bind({});
+
 outlineText.args = {
   variant: "overline-text",
   children: "overline text",
