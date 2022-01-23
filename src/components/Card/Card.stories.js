@@ -114,3 +114,70 @@ export const SimpleImageCard = () => {
     </Card>
   );
 };
+
+export const ImageCardWithButton = () => {
+  return (
+    <Card
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        width: "345px",
+        height: "340px",
+        overflow: "hidden",
+      }}
+    >
+      <Card.Img width="345" height="140" src="https://picsum.photos/345/140" />
+      <div
+        style={{
+          height: "132px",
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "center",
+          alignItems: "flex-start",
+          padding: "1rem",
+        }}
+      >
+        <Card.Title
+          style={{
+            fontSize: "24px",
+            fontWeight: "400",
+            margin: "0px",
+            marginBottom: "20px",
+          }}
+        >
+          Lizard
+        </Card.Title>
+        <Card.Text
+          style={{
+            margin: "0px",
+          }}
+        >
+          Lizards are a widespread group of squamate reptiles, with over 6,000
+          species, ranging across all continents except Antarctica
+        </Card.Text>
+      </div>
+      <div
+        style={{
+          height: "40px",
+          display: "flex",
+          justifyItems: "flex-start",
+          alignItems: "center",
+          margin: "10px",
+        }}
+      >
+        <Button
+          onClick={() => console.log("clicked")}
+          style={{
+            margin: "0",
+          }}
+          kind="normal"
+          size="sm"
+          square
+          variant="secondary"
+        >
+          Learn More
+        </Button>
+      </div>
+    </Card>
+  );
+};
