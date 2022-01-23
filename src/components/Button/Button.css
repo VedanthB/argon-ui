@@ -19,10 +19,6 @@
   --dark-button-hover: #131518;
 }
 
-/* 
-
-*/
-
 .ar-button-sm {
   height: 32px;
   width: fit-content;
@@ -112,6 +108,8 @@
   outline: none;
 }
 
+/* Default Filled Button */
+
 .ar-button-default.ar-button-filled {
   background-color: var(--default-button);
 }
@@ -121,6 +119,8 @@
 .ar-button-default.ar-button-filled:focus {
   box-shadow: 0 0 6px var(--default-button-hover);
 }
+
+/* Primary Filled Button */
 
 .ar-button-primary {
   background-color: var(--primary-button);
@@ -133,116 +133,105 @@
   box-shadow: 0 0 6px var(--primary-button-hover);
 }
 
-/* Filled Buttons*/
-/* 
-.ar-default.ar-filled {
-  background-color: var(--default-button);
-}
-
-.ar-default.ar-filled:hover {
-  background-color: var(--default-button-hover);
-}
-
-.ar-default.ar-filled:focus {
-  box-shadow: 0 0 6px var(--default-button-hover);
-}
-
-.ar-primary.ar-filled {
-  background-color: var(--primary-button);
-}
-
-.ar-primary.ar-filled:hover {
-  background-color: var(--primary-button-hover);
-}
-
-.ar-primary.ar-filled:focus {
-  box-shadow: 0 0 6px var(--primary-button-hover);
-}
-
-.ar-secondary.ar-filled {
+/* Secondary Filled Button */
+.ar-button-secondary.ar-button-filled {
   background-color: var(--secondary-button);
 }
 
-.ar-secondary.ar-filled:hover {
+.ar-button-secondary.ar-button-filled:hover {
   background-color: var(--secondary-button-hover);
 }
 
-.ar-secondary.ar-filled:focus {
+.ar-button-secondary.ar-button-filled:focus {
   box-shadow: 0 0 6px var(--secondary-button-hover);
 }
 
-.ar-success.ar-filled {
+/* Success Filled Button */
+
+.ar-button-success.ar-button-filled {
   background-color: var(--success-button);
 }
 
-.ar-success.ar-filled:hover {
+.ar-button-success.ar-button-filled:hover {
   background-color: var(--success-button-hover);
 }
 
-.ar-success.ar-filled:focus {
+.ar-button-success.ar-button-filled:focus {
   box-shadow: 0 0 6px var(--success-button-hover);
 }
 
-.ar-danger.ar-filled {
+/* Danger Filled button */
+
+.ar-button-danger.ar-button-filled {
   background-color: var(--danger-button);
 }
 
-.ar-danger.ar-filled:hover {
+.ar-button-danger.ar-button-filled:hover {
   background-color: var(--danger-button-hover);
 }
 
-.ar-danger.ar-filled:focus {
+.ar-button-danger.ar-button-filled:focus {
   box-shadow: 0 0 6px var(--danger-button-hover);
 }
 
-.ar-warning.ar-filled {
+/* Warning Filled Button*/
+.ar-button-warning.ar-button-filled {
   background-color: var(--warning-button);
 }
 
-.ar-warning.ar-filled:hover {
+.ar-button-warning.ar-button-filled:hover {
   background-color: var(--warning-button-hover);
 }
 
-.ar-warning.ar-filled:focus {
+.ar-button-warning.ar-button-filled:focus {
   box-shadow: 0 0 6px var(--warning-button-hover);
 }
 
-.ar-info.ar-filled {
+/* Info Filled Button  */
+
+.ar-button-info.ar-button-filled {
   background-color: var(--info-button);
 }
 
-.ar-info.ar-filled:hover {
+.ar-button-info.ar-button-filled:hover {
   background-color: var(--info-button-hover);
 }
 
-.ar-info.ar-filled:focus {
+.ar-button-info.ar-button-filled:focus {
   box-shadow: 0 0 6px var(--info-button-hover);
 }
 
-.ar-light.ar-filled {
+/* Light Filled Button  */
+
+.ar-button-light.ar-button-filled {
   background-color: var(--light-button);
   color: black;
 }
 
-.ar-light.ar-filled:hover {
+.ar-button-light.ar-button-filled:hover {
   background-color: var(--light-button-hover);
 }
 
-.ar-light.ar-filled:focus {
+.ar-button-light.ar-button-filled:focus {
   box-shadow: 0 0 6px var(--light-button-hover);
 }
 
-.ar-dark.ar-filled {
+/* Dark Filled Button  */
+
+.ar-button-dark.ar-button-filled {
   background-color: var(--dark-button);
 }
 
-.ar-dark.ar-filled:hover {
+.ar-button-dark.ar-button-filled:hover {
   background-color: var(--dark-button-hover);
 }
 
-.ar-dark.ar-filled:focus {
+.ar-button-dark.ar-button-filled:focus {
   box-shadow: 0 0 6px var(--dark-button-hover);
 }
+
+/* Filled Buttons*/
+/* 
 
 Bordered Buttons
 
