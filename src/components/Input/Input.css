@@ -1,0 +1,151 @@
+:root {
+  --default-color: #1976d2;
+  --primary-color: #443d70;
+  --secondary-color: #ff0099;
+  --success-color: #28a745;
+  --warning-color: #ffc107;
+  --danger-color: #dc3545;
+  --info-color: #17a2b8;
+  --light-color: #f8f9fa;
+  --dark-color: #343a40;
+}
+
+.group {
+  position: relative;
+}
+input {
+  display: block;
+  border: none;
+  font-size: 24px;
+}
+
+.ar-input-standard {
+  border-bottom: 1px solid #443d70;
+}
+
+.ar-input-outlined {
+  border-radius: 2px;
+  border: 1px solid grey;
+  padding-bottom: 5px;
+}
+
+.ar-input-small {
+  font-size: 20px;
+  width: 200px;
+  padding: 1rem 0.4rem;
+  padding-bottom: 2px;
+}
+
+.ar-input-medium {
+  font-size: 20px;
+  width: 400px;
+  padding: 1rem 0.4rem;
+  padding-bottom: 2px;
+}
+
+.ar-input-large {
+  font-size: 20px;
+  width: 600px;
+  padding: 1rem 0.4rem;
+  padding-bottom: 2px;
+}
+
+.ar-input-default-standard:focus {
+  outline: none;
+  border-bottom: none;
+  border-bottom: 2px solid var(--default-color);
+}
+.ar-input-default-outlined:focus {
+  outline: none;
+  border: 2px solid var(--default-color);
+}
+.ar-input-primary-standard:focus {
+  outline: none;
+  border-bottom: none;
+  border-bottom: 2px solid var(--primary-color);
+}
+.ar-input-primary-outlined:focus {
+  outline: none;
+  border: 2px solid var(--primary-color);
+}
+.ar-input-secondary-standard:focus {
+  outline: none;
+  border-bottom: none;
+  border-bottom: 2px solid var(--secondary-color);
+}
+.ar-input-secondary-outlined:focus {
+  outline: none;
+  border: 2px solid var(--secondary-color);
+}
+.ar-input-info-standard:focus {
+  outline: none;
+  border-bottom: none;
+  border-bottom: 2px solid var(--info-color);
+}
+.ar-input-info-outlined:focus {
+  outline: none;
+  border: 2px solid var(--info-color);
+}
+.ar-input-success-standard:focus {
+  outline: none;
+  border-bottom: none;
+  border-bottom: 2px solid var(--success-color);
+}
+.ar-input-success-outlined:focus {
+  outline: none;
+  border: 2px solid var(--success-color);
+}
+.ar-input-warning-standard:focus {
+  outline: none;
+  border-bottom: none;
+  border-bottom: 2px solid var(--warning-color);
+}
+.ar-input-warning-outlined:focus {
+  outline: none;
+  border: 2px solid var(--warning-color);
+}
+.ar-input-danger-standard:focus {
+  outline: none;
+  border-bottom: none;
+  border-bottom: 2px solid var(--danger-color);
+}
+.ar-input-danger-outlined:focus {
+  outline: none;
+  border: 2px solid var(--danger-color);
+}
+.ar-input-standard-label {
+  color: #999;
+  font-size: 15px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  vertical-align: middle;
+  left: 8px;
+  top: 10px;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+
+.ar-input-outlined-label {
+  color: #999;
+  font-size: 15px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  vertical-align: middle;
+  left: 10px;
+  top: 10px;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+
+input:focus ~ label,
+input:valid ~ label {
+  top: -5px;
+  font-size: 12px;
+  color: grey;
+  padding: 0 2px;
+  background-color: white;
+}

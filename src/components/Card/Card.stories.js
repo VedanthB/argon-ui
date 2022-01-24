@@ -105,6 +105,7 @@ export const SimpleImageCard = () => {
         <Card.Text
           style={{
             margin: "0px",
+            color: "grey",
           }}
         >
           Lizards are a widespread group of squamate reptiles, with over 6,000
@@ -150,6 +151,7 @@ export const ImageCardWithButton = () => {
         <Card.Text
           style={{
             margin: "0px",
+            color: "grey",
           }}
         >
           Lizards are a widespread group of squamate reptiles, with over 6,000

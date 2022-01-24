@@ -1,27 +1,19 @@
 :root {
   --primary-chip: #443d70;
-
   --primary-chip-transparent-hover: #2824411a;
   --secondary-chip: #ff0099;
-
   --secondary-chip-transparent-hover: #d3007f1c;
   --success-chip: #28a745;
-
   --success-chip-transparent-hover: #1d793321;
-
   --warning-chip-transparent-hover: #d39e001a;
   --warning-chip: #ffc107;
   --danger-chip: #dc3545;
-
   --danger-chip-transparent-hover: #a5273421;
   --info-chip: #17a2b8;
-
   --info-chip-transparent-hover: #11788823;
   --light-chip: #f8f9fa;
-
-  --light-chip-transparent-hover: #e7e7e725;
+  --light-chip-transparent-hover: #e7e7e7a9;
   --dark-chip: #343a40;
-
   --dark-chip-transparent-hover: #1315182a;
 }
 
@@ -32,22 +24,16 @@
   align-items: center;
   margin: auto;
   font-size: 13px;
-  border-radius: 2rem;
+  border-radius: 1rem;
   cursor: pointer;
+  padding-left: 12px;
+  padding-right: 12px;
+  height: 32px;
 }
 .ar-chip-sm {
-  height: 36px;
-
-  padding: 3px;
-}
-.ar-chip-md {
-  height: 26px;
-  width: 46px;
-  padding: 10px;
-}
-.ar-chip-lg {
-  height: 56px;
-  padding: 8px;
+  height: 20px;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
 .ar-chip-outline {
@@ -113,8 +99,8 @@
   color: white;
 }
 .ar-chip-filled.ar-chip-light {
-  background-color: var(--light-chip);
-  color: white;
+  background-color: var(--light-chip-transparent-hover);
+  color: black;
 }
 .ar-chip-filled.ar-chip-dark {
   background-color: var(--dark-chip);
