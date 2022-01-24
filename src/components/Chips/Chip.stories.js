@@ -1,4 +1,6 @@
+import { Icon } from "../Icon/Icon";
 import { Chip } from "./Chip";
+import { faTimesCircle } from "@fortawesome/free-solid-svg-icons";
 
 export default {
   title: "Ar UI/Chip",
@@ -22,4 +24,17 @@ FilledChip.args = {
   variant: "info",
   children: "Chip",
   size: "md",
+};
+
+export const IconChip = () => {
+  return (
+    <Chip style={{ width: "fit-content" }} kind="outline" variant="secondary">
+      Delete
+      <Icon
+        onClick={() => console.log("chip clicked")}
+        style={{ marginLeft: "6px" }}
+        icon={faTimesCircle}
+      />
+    </Chip>
+  );
 };
