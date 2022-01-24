@@ -1,0 +1,121 @@
+:root {
+  --primary-chip: #443d70;
+
+  --primary-chip-transparent-hover: #2824411a;
+  --secondary-chip: #ff0099;
+
+  --secondary-chip-transparent-hover: #d3007f1c;
+  --success-chip: #28a745;
+
+  --success-chip-transparent-hover: #1d793321;
+
+  --warning-chip-transparent-hover: #d39e001a;
+  --warning-chip: #ffc107;
+  --danger-chip: #dc3545;
+
+  --danger-chip-transparent-hover: #a5273421;
+  --info-chip: #17a2b8;
+
+  --info-chip-transparent-hover: #11788823;
+  --light-chip: #f8f9fa;
+
+  --light-chip-transparent-hover: #e7e7e725;
+  --dark-chip: #343a40;
+
+  --dark-chip-transparent-hover: #1315182a;
+}
+
+.ar-chip {
+  width: fit-content;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  font-size: 13px;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+.ar-chip-sm {
+  height: 36px;
+  padding: 3px;
+}
+.ar-chip-md {
+  height: 26px;
+  width: 46px;
+  padding: 10px;
+}
+.ar-chip-lg {
+  height: 56px;
+  padding: 8px;
+}
+
+.ar-chip-outline {
+  background-color: transparent;
+  border: 1px solid rgb(189, 189, 189);
+}
+
+.ar-chip-outline.ar-chip-primary {
+  border: 1px solid var(--primary-chip);
+  color: var(--primary-chip);
+}
+.ar-chip-outline.ar-chip-secondary {
+  border: 1px solid var(--secondary-chip);
+  color: var(--secondary-chip);
+}
+.ar-chip-outline.ar-chip-info {
+  border: 1px solid var(--info-chip);
+  color: var(--info-chip);
+}
+.ar-chip-outline.ar-chip-warning {
+  border: 1px solid var(--warning-chip);
+  color: var(--warning-chip);
+}
+.ar-chip-outline.ar-chip-danger {
+  border: 1px solid var(--danger-chip);
+  color: var(--danger-chip);
+}
+.ar-chip-outline.ar-chip-success {
+  border: 1px solid var(--success-chip);
+  color: var(--success-chip);
+}
+.ar-chip-outline.ar-chip-light {
+  border: 1px solid var(--light-chip);
+  color: var(--light-chip);
+}
+.ar-chip-outline.ar-chip-dark {
+  border: 1px solid var(--dark-chip);
+  color: var(--dark-chip);
+}
+
+.ar-chip-filled.ar-chip-primary {
+  background-color: var(--primary-chip);
+  color: white;
+}
+.ar-chip-filled.ar-chip-secondary {
+  background-color: var(--secondary-chip);
+  color: white;
+}
+.ar-chip-filled.ar-chip-info {
+  background-color: var(--info-chip);
+  color: white;
+}
+.ar-chip-filled.ar-chip-warning {
+  background-color: var(--warning-chip);
+  color: white;
+}
+.ar-chip-filled.ar-chip-danger {
+  background-color: var(--danger-chip);
+  color: white;
+}
+.ar-chip-filled.ar-chip-success {
+  background-color: var(--success-chip);
+  color: white;
+}
+.ar-chip-filled.ar-chip-light {
+  background-color: var(--light-chip);
+  color: white;
+}
+.ar-chip-filled.ar-chip-dark {
+  background-color: var(--dark-chip);
+  color: white;
+}
